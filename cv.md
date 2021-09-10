@@ -28,3 +28,17 @@ function squaresNeeded(grains){
   }
 }
 ```
+## Experience
+
+
+Acomplished Codecademy JavaScript course. Accomplished Codecademy HTML course.
+
+
+## Education
+* Zhytomyr Colleage of Technology
+* Zhytomyr National University of Technology
+
+## English level
+
+
+I don't know exactly what is my level of English, as I learned it too long ago...
