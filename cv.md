@@ -1,7 +1,7 @@
-#Daria Kliamar
+# Daria Kliamar
 
-*Email: helpmeloki7@gmail.com
-*Tel: +380677093703
+* Email: helpmeloki7@gmail.com
+* Tel: +380677093703
 
 ## About me
 
@@ -10,9 +10,9 @@ My aim is to learn JavaScript, HTML and CSS. Just learn good enough to find work
 
 
 ## Skills
-*Javascript
-*HTML
-*CSS
+* Javascript
+* HTML
+* CSS
 
 
 ## Example of code
