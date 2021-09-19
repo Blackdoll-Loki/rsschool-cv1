@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header-container">
+                <div class="header-body">
+                    <div class="header_burger">
+                        <span></span>
+                    </div>
+                        <nav class="header-menu">
+                            <ul class="header-list">
+                                <li><a href="#contacts" class="header-link">Contacts</a></li>
+                                <li><a href="#about-me" class="header-link">About me</a></li>
+                                <li><a href="#skills" class="header-link">Skills</a></li>
+                                <li><a href="#example-of-code" class="header-link">Example of code</a></li>
+                                <li><a href="#experience" class="header-link">Experience</a></li>
+                                <li><a href="#education" class="header-link">Education</a></li>
+                                <li><a href="#english" class="header-link">Endlish level</a></li>
+                                <li><a href="#hobby" class="header-link">Hobby</a></li>
+                            </ul>
+                        </nav>
+
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <div class="container">
+                <div class="right-bar">
+                    <div class="photo-block">
+                        <img src="img/avatar.png" alt="My photo">
+                    </div>
+                    <h1>Daria Kliamar</h1>
+                    <div class="contacts">
+                        <h2>Contacts</h2>
+                        <ul>
+                            <li>
+                                <a href="mailto:helpmeloki7@gmail.com"><img src="img/email.svg" alt="email-icon"></a>
+                                <a href="mailto:helomeloki7@gmail.com">helpmeloki7@gmail.com</a>
+                            </li>
+                            <li>
+                                <a><img src="img/telephone.svg" alt="telephone-icon"></a>
+                                +380677093703
+                            </li>
+                        </ul>
+                    </div>
+                    <section id="skills">
+                        <h2>Skills</h2>
+                        <hr>
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="left-bar">
+                    <section id="about-me">
+                        <article>
+                            <h2>About me</h2>
+                            <hr>
+                            <p>My aim is to learn JavaScript, HTML and CSS. Just learn good enough to find work. And of course have some fun.</p>
+                        </article>
+                    </section>
+                    <section id="example-of-code">
+                        <h2>Example of code</h2>
+                        <hr>
+                        <p>Codewars The wheat/rice and chessboard problem</p>
+                        <pre>
+                            <code>
+    function squaresNeeded(grains){
+                            
+        if(grains === 0){
+            return 0;
+        } else {
+        let squares = Math.floor(Math.log2(grains)) + 1;
+        return squares;
+        }
+    }
+                            </code>
+                        </pre>
+                    </section>
+                    <section id="experience">
+                        <h3>Experience</h3>
+                        <hr>
+                        <p>Acсomplished Codecademy JavaScript course. Accomplished Codecademy HTML course.</p>
+                    </section>
+                    <section id="education">
+                        <h4>Education</h4>
+                        <hr>
+                        <ul>
+                            <li>Zhytomyr College of Technology</li>
+                            <li>Zhytomyr State Polytechnic University</li>
+                            <li>Codecademy HTML</li>
+                            <li>Codecademy JavaScript</li>
+                            <li>FreeCodeCamp Javascript</li>
+                            <li>FreeCodeCamp HTM L& CSS</li>
+                        </ul>
+                    </section>
+                    <section id="english">
+                        <h5>English level</h5>
+                        <hr>
+                        <p>I don't know exactly what my English level is, as I learned it too long ago...</p>
+                    </section>
+                    <section id="hobby">
+                        <h6>Hobbies</h6>
+                        <hr>
+                        <ul>
+                            <li>Gardening</li>
+                            <li>Drawing</li>
+                            <li>Voilin playing</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <time>2021</time>
+            <img src="img/rs_school_js.svg" alt="RS school logo">
+            <a href="https://rs.school/js/">RS School</a>
+            <a href="https://github.com/Blackdoll-Loki">Github</a>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
